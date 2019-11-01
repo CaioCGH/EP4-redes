@@ -2,9 +2,15 @@
 
 Adaptado de https://github.com/Rhynorater/CVE-2018-15473-Exploit
 
+Para rodar este exploit é necessário ter instalado:
+
+-docker
+-docker compose
+
 ## servidor ssh
 
 Vamos começar puxando do DockerHub uma imagem que tem uma versão antiga (6.6) do SSH num Ubuntu antigo:
+Pode demorar até alguns minutos para baixar tudo, mas só precisa baixar uma vez.
 ```
 docker pull dockerbase/openssh-server
 ```
