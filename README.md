@@ -4,8 +4,8 @@ Adaptado de https://github.com/Rhynorater/CVE-2018-15473-Exploit
 
 Para rodar este exploit é necessário ter instalado:
 
--docker
--docker compose
+- docker
+- docker compose
 
 ## servidor ssh
 
