@@ -1,0 +1,16 @@
+version: '3.5'
+services:
+  attacker:
+    build: .
+    container_name: attacker
+    volumes:
+      - "./:/usr/src"
+    networks:
+      - attacker_some-net
+    working_dir: /usr/src/
+    command: "python sleep.py"
+
+networks:
+  attacker_some-net:
+    external:
+      name: custom_network
